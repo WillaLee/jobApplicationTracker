@@ -1,0 +1,14 @@
+1)	User:
+Fields: id, name, password
+Service: createUser, getUserIdByName
+Controller: createUser
+
+2)	Job applications:
+Fields: id, use_id, company_name, job_title, date, link
+Service: createJobApp, removeJobAppById, searchForJobAppByCompanyName, countJobAppByDate, countJobAppByMonth
+Controller: createJobApp, removeJobAppById, searchForJobAppByCompanyName
+
+3) report:
+Fields: time
+Service: generateReport
+Controller: generateReport
